@@ -1,1 +1,1 @@
-Sitemap: /startup_eng/sitemap.xml
+Sitemap: /sitemap.xml
