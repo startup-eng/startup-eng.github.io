@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>How to Prioritize Tech Debt - Startup Eng</title>
+
+  <!-- Edit site and author settings in `_config.yml` to make the social details your own -->
+
+    <meta content="Startup Eng" property="og:site_name">
+  
+    <meta content="How to Prioritize Tech Debt" property="og:title">
+  
+  
+    <meta content="article" property="og:type">
+  
+  
+    <meta content="Align your team behind a prioritized list of tech debt." property="og:description">
+  
+  
+    <meta content="/how-to-prioritize-tech-debt/" property="og:url">
+  
+  
+    <meta content="2021-02-19T13:32:20-07:00" property="article:published_time">
+    <meta content="/about/" property="article:author">
+  
+  
+    <meta content="/assets/img/i-rest.jpg" property="og:image">
+  
+  
+    
+  
+  
+    
+    <meta content="Tech Debt" property="article:tag">
+    
+    <meta content="Software" property="article:tag">
+    
+    <meta content="Leadership" property="article:tag">
+    
+  
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    <meta name="twitter:creator" content="@_elnicky">
+  
+    <meta name="twitter:title" content="How to Prioritize Tech Debt">
+  
+  
+    <meta name="twitter:url" content="/how-to-prioritize-tech-debt/">
+  
+  
+    <meta name="twitter:description" content="Align your team behind a prioritized list of tech debt.">
+  
+  
+    <meta name="twitter:image:src" content="/assets/img/i-rest.jpg">
+  
+
+	<meta name="description" content="Align your team behind a prioritized list of tech debt.">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta property="og:image" content="">
+	<link rel="shortcut icon" href="/assets/img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="/assets/img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/assets/img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/assets/img/favicon/apple-touch-icon-144x144.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#263959">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#263959">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#263959">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Lato:300,400,700&display=swap" rel="stylesheet">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="/assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- Styles -->
+	<link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <aside class="sidebar">
+  <header>
+    <div class="about">
+      <div class="cover-author-image">
+        <a href="/"><img src="/assets/img/logo.png" alt="Startup Eng"></a>
+      </div>
+      <div class="author-name">Startup Eng</div>
+      <p>Engineering leadership at a high growth startup.</p>
+    </div>
+  </header> <!-- End Header -->
+  <footer>
+    <section class="contact">
+      <h3 class="contact-title">Contact me</h3>
+      <ul>
+        
+          <li><a href="https://twitter.com/_elnicky" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        
+        
+        
+          <li class="github"><a href="http://github.com/telnicky" target="_blank"><i class="fa fa-github"></i></a></li>
+        
+        
+          <li class="linkedin"><a href="https://in.linkedin.com/in/travis-elnicky" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        
+        
+      </ul>
+    </section> <!-- End Section Contact -->
+    <div class="copyright">
+      <p>2021 &copy; Startup Eng</p>
+    </div>
+  </footer> <!-- End Footer -->
+</aside> <!-- End Sidebar -->
+<div class="content-box clearfix">
+  <article class="article-page">
+  <div class="page-content">
+    
+    <div class="page-cover-image">
+      <figure>
+        <img class="page-image" src=/assets/img/i-rest.jpg alt="How to Prioritize Tech Debt">
+        
+      </figure>
+    </div> <!-- End Page Cover Image -->
+    
+    <div class="wrap-content">
+      <header class="header-page">
+        <h1 class="page-title">How to Prioritize Tech Debt</h1>
+        <div class="page-date"><span>2021, Feb 19&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+      </header>
+      <p>Often teams have a lot on their mind when it comes to technical debt and it’s not always clear how to best address it. I have a process I like to use that includes the entire team and the outcome is a prioritized list of initiatives that the team is aligned behind. The process is called the Effort/Impact Matrix and is used quite frequently in product management. Although scientifically imprecise I like that this process aligns the team on what the next most meaningful technical debt projects are.</p>
+
+<h2 id="overview">Overview</h2>
+<ul>
+  <li>Setup</li>
+  <li>Brainstorm</li>
+  <li>Present</li>
+  <li>Group</li>
+  <li>Sort Effort</li>
+  <li>Rank Impact</li>
+</ul>
+
+<h2 id="step-1---setup">Step 1 - Setup</h2>
+<p>Organize a meeting for the entire team including Product and Design. For in-office teams, bring sticky notes and sharpies for everyone to collaborate. Make sure that there is space to post sticky notes on a whiteboard or wall. For remote teams, Create a new <a href="https://miro.grsm.io/traviselnicky639">Miro board</a> and invite your team to it. <a href="https://miro.grsm.io/traviselnicky639">Miro</a> is a great tool for remote collaboration and will be perfect for this activity.</p>
+
+<h2 id="step-2---brainstorm">Step 2 - Brainstorm</h2>
+<p>Take 5 mins and have each person create a list of tech debt items to consider. Make sure that each person works by themselves to create their list and that each sticky note contains one tech debt item. Having each team member work individually will ensure that you are able to collect unbiased ideas from everyone. There is no limit to how many or few stickies to create, the point is to just get as much out into notes as possible.</p>
+
+<p><img src="/assets/img/tech-debt-step-2.png" alt="List of sticky notes" /></p>
+
+<h2 id="step-3---present">Step 3 - Present</h2>
+<p>Once everyone is done writing their thoughts down have each person present their list to the group. As they read their sticky notes collect them on a board and begin to organize them all together. Allow for the team to ask questions about the ideas posted and if new ideas come to mind make sure to include them on the board. At the end of this step the team should have a good understanding of what everyone wrote down.</p>
+
+<p><img src="/assets/img/tech-debt-step-3.png" alt="Combined list of all sticky notes" /></p>
+
+<h2 id="step-4---group">Step 4 - Group</h2>
+<p>Now you have a large group of loosely organized ideas. With the team, combine duplicates and group tech debt items that would be apart of the same project. If two related tickets can be worked on and add value independently don’t group them together as one project. The smaller the deliverables the better.</p>
+
+<p><img src="/assets/img/tech-debt-step-4.png" alt="Grouped sticky notes" /></p>
+
+<h2 id="step-5---sort-effort">Step 5 - Sort Effort</h2>
+<p>Horizontally align each ticket or group and begin to sort from lowest effort left to right. Don’t get too hung up on the estimates, lowest effort is not a science and imprecise but with your team you should be able to get a “good enough” gut feeling. Often you can compare each project to each other and gauge whether one would be bigger than the other.</p>
+
+<p>Effort is how long it will take for your team to deliver the project. If your team has been working together for awhile you should have a pretty good idea of the team’s capacity. I like to use the unit “Dev Days” when reviewing each ticket. 1 Dev Day is equal to a single engineer working for 1 business day. Hypothetically if something estimated at two dev days can be parallelized across two engineers it should only take one day to complete. Obviously not everything can be parallelized so take care in considering work that must be serial when estimating.</p>
+
+<p><img src="/assets/img/tech-debt-step-5.png" alt="Horizontally aligned sticky notes" /></p>
+
+<h2 id="step-6---rank-impact">Step 6 - Rank Impact</h2>
+<p>Go through each project and rank by Impact, the more impactful a project is the higher on the board it’ll be. Some tickets will rise above the horizontal line you created and others will fall below. Again this is not a perfect science but you should be able to get a good directional idea from the team.</p>
+
+<p>Impact is the value you will deliver to the customer. In terms of technical debt that may mean your team is able to deliver faster, handle more traffic, or deliver faster page loads. A unit you could use for this is total number of users impacted, however this is just an estimation exercise so don’t get hung up on assigning specific values to projects.</p>
+
+<p><img src="/assets/img/tech-debt-step-6.png" alt="Vertically ranked sticky notes" /></p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p><img src="/assets/img/tech-debt-conclusion.png" alt="Sticky notes with high effort and high impact axis" /></p>
+
+<p>The final list that you end up with is a matrix of projects, anything that is low effort and high impact should stand out as something to do asap. With the team talk through the results and determine what you’d like to work on first. It won’t always be the case you just take the most impactful and lowest effort but now you have a shared visual of how the team is thinking about their tech debt to consider.</p>
+
+      <div class="page-footer">
+        <div class="page-share">
+          <a href="https://twitter.com/intent/tweet?text=How to Prioritize Tech Debt&url=/how-to-prioritize-tech-debt/" title="Share on Twitter" rel="nofollow" target="_blank">Twitter</a>
+          <a href="https://facebook.com/sharer.php?u=/how-to-prioritize-tech-debt/" title="Share on Facebook" rel="nofollow" target="_blank">Facebook</a>
+          <a href="https://plus.google.com/share?url=/how-to-prioritize-tech-debt/" title="Share on Google+" rel="nofollow" target="_blank">Google+</a>
+        </div>
+        <div class="page-tag">
+          
+            <a href="/tags#Tech Debt" class="tag">&#35; Tech Debt</a>
+          
+            <a href="/tags#Software" class="tag">&#35; Software</a>
+          
+            <a href="/tags#Leadership" class="tag">&#35; Leadership</a>
+          
+        </div>
+      </div>
+      <section class="comment-area">
+  <div class="comment-wrapper">
+    
+  </div>
+</section> <!-- End Comment Area -->
+
+    </div> <!-- End Wrap Content -->
+  </div> <!-- End Page Content -->
+</article> <!-- End Article Page -->
+
+</div>
+
+  </div>
+  
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'G-R9X10VWMTV', 'auto');
+  ga('send', 'pageview');
+</script> <!-- End Analytics -->
+
+</body>
+</html>
